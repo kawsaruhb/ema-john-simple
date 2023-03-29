@@ -8,9 +8,9 @@ const Cart = ({ cart }) => {
 
     let totalPrice = 0;
     let totalShipping = 0;
-    for (const product of cart){
-         totalPrice = totalPrice + product.price;
-         totalShipping = totalShipping + product.shipping;
+    for (const product of cart) {
+        totalPrice = totalPrice + product.price;
+        totalShipping = totalShipping + product.shipping;
     }
 
     const tax = totalPrice * 7 / 100;
