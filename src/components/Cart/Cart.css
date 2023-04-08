@@ -1,19 +1,34 @@
-.cart{
+.cart {
     background-color: rgba(255, 153, 0, 0.3);
     padding: 25px;
     position: sticky;
     top: 0;
 }
 
-.cart h4{
+.cart h4 {
     font-size: 22px;
     text-align: center;
 }
 
-.cart h6{
+.cart h6 {
     font-size: 17px;
 }
 
-.cart p{
+.cart p {
     font-size: 17px;
+}
+
+.btn-clearCart {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background: #FF3030;
+    border-radius: 4px;
+    /* font-weight: 400; */
+    /* font-size: 21px; */
+    /* line-height: 25px; */
+    /* letter-spacing: 0.0015em; */
 }
